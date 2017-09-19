@@ -1,0 +1,10 @@
+---
+fileServer: 10.10.15.19
+repofiles:
+  - "CentOS-Base-{{ ansible_distribution_major_version }}.repo"
+  - "CentOS-epel-{{ ansible_distribution_major_version }}.repo"
+  - "CentOS-repoforge-{{ ansible_distribution_major_version }}.repo"
+
+repofiles7:
+  - "CentOS-Base-{{ ansible_distribution_major_version }}.repo"
+  - "CentOS-epel-{{ ansible_distribution_major_version }}.repo"
